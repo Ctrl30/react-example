@@ -5,13 +5,14 @@ import App from "./App";
 import { Provider } from "mobx-react";
 
 import * as serviceWorker from "./serviceWorker";
-import { createStore } from 'redux'
-import RootStore from './store'
-import Reduxstore from './store/redux'
+// import { createStore } from 'redux'
+import RootStore from './store';
+// import Reduxstore from './store/redux'
+import Router from './router'
 const rootStore = new RootStore();
 ReactDOM.render(
     <Provider {...rootStore}>
-      <App />
+      <Router />
      </Provider>,
   document.getElementById("root")
 );
