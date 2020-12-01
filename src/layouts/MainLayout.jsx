@@ -6,6 +6,7 @@ const entry = AsyncComponent(() => import('../pages/main/entry') );
 const fuck = AsyncComponent(() => import('../pages/main/fuck') );
 const refDemo = AsyncComponent(() => import('../pages/refDemo') );
 const useMome = AsyncComponent(() => import('../pages/useMome') );
+const useCallback = AsyncComponent(() => import('../pages/useCallback') );
 
 export default class MainLayout extends Component {
     render() {
@@ -14,7 +15,8 @@ export default class MainLayout extends Component {
                 <Route exact path='/' component={entry}  />
                 <Route path='/fuck' component={fuck}  />
                 <Route path='/ref' component={refDemo}  />
-                <Route path='/usememo' component={useMome}  />
+                <Route path='/useMemo' component={useMome}  />
+                <Route path='/useCallback' component={useCallback}  />
             </Switch>
         )
     }

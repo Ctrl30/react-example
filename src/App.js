@@ -2,7 +2,6 @@ import React, { forwardRef , useRef,useCallback, useState } from "react";
 // import Child from './pages/refTest/child';
 import Example from './pages/example';
 import Example2 from './pages/example/example2';
-import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0)
