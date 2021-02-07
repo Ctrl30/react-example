@@ -1,0 +1,11 @@
+.wrap{
+   background-color: cyan; 
+   width: 600px;
+   height: 600px;
+   .inner{
+       width: 100px;
+       height: 100px;
+       background-color: greenyellow;
+       display: inline-block;
+   }
+}

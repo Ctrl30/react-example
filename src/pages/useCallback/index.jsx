@@ -3,6 +3,7 @@ import { Button, Input } from "antd";
 import style from './style.scss';
 
 const set = new Set();
+const temp = [];
 
 export default function UseCallback() {
   const [count, setCount] = useState(1);
@@ -12,9 +13,12 @@ export default function UseCallback() {
     console.log(count);
   }, [count]);
 
+  set.add(callback);
+  temp.push(count)
   const handleClick = () => {
     setCount(count + 1);
   };
+  console.log('fuck')
 
   const handleChange = (e) => {
     setVal(e.target.value);
@@ -23,6 +27,7 @@ export default function UseCallback() {
   return (
     <div>
       <h4>{count}</h4>
+      <h4>{temp.length}</h4>
       <h4>{set.size}</h4>
       <div>
         <Button onClick={handleClick}>add</Button>

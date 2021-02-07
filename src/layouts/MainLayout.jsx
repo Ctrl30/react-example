@@ -7,6 +7,10 @@ const fuck = AsyncComponent(() => import('../pages/main/fuck') );
 const refDemo = AsyncComponent(() => import('../pages/refDemo') );
 const useMome = AsyncComponent(() => import('../pages/useMome') );
 const useCallback = AsyncComponent(() => import('../pages/useCallback') );
+const PraentChild = AsyncComponent(() => import('../pages/useCallback/parentChild') );
+const UseLayoutEffect = AsyncComponent(() => import('../pages/useLayoutEffect') );
+const Useimperativehandle = AsyncComponent(() => import('../pages/useimperativehandle') );
+const Three = AsyncComponent(() => import('../pages/three') );
 
 export default class MainLayout extends Component {
     render() {
@@ -17,6 +21,10 @@ export default class MainLayout extends Component {
                 <Route path='/ref' component={refDemo}  />
                 <Route path='/useMemo' component={useMome}  />
                 <Route path='/useCallback' component={useCallback}  />
+                <Route path='/parent-child' component={PraentChild}  />
+                <Route path='/effect' component={UseLayoutEffect}  />
+                <Route path='/imperative' component={Useimperativehandle}  />
+                <Route path='/three' component={Three}  />
             </Switch>
         )
     }
