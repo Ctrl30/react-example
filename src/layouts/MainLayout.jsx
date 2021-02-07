@@ -2,15 +2,16 @@ import React, { Component } from 'react';
 import { Route,Switch } from 'react-router-dom';
 import AsyncComponent from '../utils/AsyncComponent';
 
-const entry = AsyncComponent(() => import('../pages/main/entry') );
-const fuck = AsyncComponent(() => import('../pages/main/fuck') );
-const refDemo = AsyncComponent(() => import('../pages/refDemo') );
-const useMome = AsyncComponent(() => import('../pages/useMome') );
-const useCallback = AsyncComponent(() => import('../pages/useCallback') );
-const PraentChild = AsyncComponent(() => import('../pages/useCallback/parentChild') );
-const UseLayoutEffect = AsyncComponent(() => import('../pages/useLayoutEffect') );
-const Useimperativehandle = AsyncComponent(() => import('../pages/useimperativehandle') );
-const Three = AsyncComponent(() => import('../pages/three') );
+const entry = AsyncComponent(() => import('@/pages/main/entry') );
+const fuck = AsyncComponent(() => import('@/pages/main/fuck') );
+const refDemo = AsyncComponent(() => import('@/pages/refDemo') );
+const useMome = AsyncComponent(() => import('@/pages/useMome') );
+const useCallback = AsyncComponent(() => import('@/pages/useCallback') );
+const PraentChild = AsyncComponent(() => import('@/pages/useCallback/parentChild') );
+const UseLayoutEffect = AsyncComponent(() => import('@/pages/useLayoutEffect') );
+const Useimperativehandle = AsyncComponent(() => import('@/pages/useimperativehandle') );
+const Three = AsyncComponent(() => import('@/pages/three') );
+const Drag = AsyncComponent(() => import('@/pages/drag') );
 
 export default class MainLayout extends Component {
     render() {
@@ -25,6 +26,7 @@ export default class MainLayout extends Component {
                 <Route path='/effect' component={UseLayoutEffect}  />
                 <Route path='/imperative' component={Useimperativehandle}  />
                 <Route path='/three' component={Three}  />
+                <Route path='/drag' component={Drag}  />
             </Switch>
         )
     }
