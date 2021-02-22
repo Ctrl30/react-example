@@ -1,4 +1,4 @@
-import React,{useEffect, useLayoutEffect} from 'react';
+import React,{useLayoutEffect} from 'react';
 import style from './style.scss';
 
 export default function UseLayoutEffect() {
