@@ -13,6 +13,7 @@ const Useimperativehandle = AsyncComponent(() => import('@/pages/useimperativeha
 const Three = AsyncComponent(() => import('@/pages/three') );
 const Drag = AsyncComponent(() => import('@/pages/drag') );
 const Worker = AsyncComponent(() => import('@/pages/worker') );
+const stateDemo = AsyncComponent(() => import('@/pages/stateDemo') );
 
 export default class MainLayout extends Component {
     render() {
@@ -22,6 +23,7 @@ export default class MainLayout extends Component {
                 <Route path='/fuck' component={fuck}  />
                 <Route path='/ref' component={refDemo}  />
                 <Route path='/useMemo' component={useMome}  />
+                <Route path='/stateDemo' component={stateDemo}  />
                 <Route path='/useCallback' component={useCallback}  />
                 <Route path='/parent-child' component={PraentChild}  />
                 <Route path='/effect' component={UseLayoutEffect}  />
