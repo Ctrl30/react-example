@@ -14,6 +14,7 @@ const Three = AsyncComponent(() => import('@/pages/three') );
 const Drag = AsyncComponent(() => import('@/pages/drag') );
 const Worker = AsyncComponent(() => import('@/pages/worker') );
 const stateDemo = AsyncComponent(() => import('@/pages/stateDemo') );
+const Canvas = AsyncComponent(() => import('@/pages/canvas') );
 
 export default class MainLayout extends Component {
     render() {
@@ -31,6 +32,7 @@ export default class MainLayout extends Component {
                 <Route path='/three' component={Three}  />
                 <Route path='/drag' component={Drag}  />
                 <Route path='/worker' component={Worker}  />
+                <Route path='/canvas' component={Canvas}  />
             </Switch>
         )
     }

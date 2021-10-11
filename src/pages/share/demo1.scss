@@ -1,0 +1,49 @@
+.wrap{
+    width: 100vw;
+    padding: 20px;
+    .center{
+        text-align: center;
+    }
+    .green{
+        display: inline-block;
+        margin-bottom: 20px;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        color: white;
+        background-color: green;
+    }
+     /* 竖屏 */
+     @media screen and (orientation:portrait) {
+        /* 这里写竖屏样式 */
+        .center{
+            background-color: pink;
+        }
+        .itemBox{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .green{
+                width: 90%;
+            }
+        }
+      }
+  
+      /* 横屏 */
+      @media screen and (orientation:landscape) {
+        /* 这里写横屏样式 */
+        .center{
+            background-color: cyan;
+        }
+        .itemBox{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .green{
+                background-color: red;
+                width: 40%;
+            }
+        }
+      }
+  
+}
