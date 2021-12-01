@@ -1499,6 +1499,20 @@
   resolved "https://registry.npm.taobao.org/@sheerun/mutationobserver-shim/download/@sheerun/mutationobserver-shim-0.3.3.tgz#5405ee8e444ed212db44e79351f0c70a582aae25"
   integrity sha1-VAXujkRO0hLbROeTUfDHClgqriU=
 
+"@shopify/app-bridge-react@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.npmmirror.com/@shopify/app-bridge-react/download/@shopify/app-bridge-react-2.0.5.tgz#289f8418550a72de9974e29c267619ac4f1c6382"
+  integrity sha1-KJ+EGFUKct6ZdOKcJnYZrE8cY4I=
+  dependencies:
+    "@shopify/app-bridge" "^2.0.5"
+
+"@shopify/app-bridge@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.npmmirror.com/@shopify/app-bridge/download/@shopify/app-bridge-2.0.5.tgz#d669c7a7f008f013457785095268ca6807420d33"
+  integrity sha1-1mnHp/AI8BNFd4UJUmjKaAdCDTM=
+  dependencies:
+    base64url "^3.0.1"
+
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
   resolved "https://registry.npm.taobao.org/@svgr/babel-plugin-add-jsx-attribute/download/@svgr/babel-plugin-add-jsx-attribute-4.2.0.tgz#dadcb6218503532d6884b210e7f3c502caaa44b1"
@@ -2718,6 +2732,11 @@ base64-js@^1.0.2:
   version "1.5.1"
   resolved "https://registry.npm.taobao.org/base64-js/download/base64-js-1.5.1.tgz?cache=0&sync_timestamp=1605123700994&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbase64-js%2Fdownload%2Fbase64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
   integrity sha1-GxtEAWClv3rUC2UPCVljSBkDkwo=
+
+base64url@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npm.taobao.org/base64url/download/base64url-3.0.1.tgz#6399d572e2bc3f90a9a8b22d5dbb0a32d33f788d"
+  integrity sha1-Y5nVcuK8P5CpqLItXbsKMtM/eI0=
 
 base@^0.11.1:
   version "0.11.2"

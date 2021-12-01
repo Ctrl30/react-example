@@ -17,8 +17,8 @@
     display: block;
 }
 .footer{
-    // position: fixed;
-    position: absolute;
+    position: fixed;
+    // position: absolute;
     bottom: 0;
 }
 .content{
@@ -26,6 +26,7 @@
     height: 100%;
 }
 .wrap{
+    pointer-events: all;
     overflow: hidden;
     position: relative;
 }

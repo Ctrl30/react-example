@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
-import style from "./demo2.scss";
-import "../../global.scss";
+import style from "./demo3.scss";
+// import "../../global.scss";
 
 export default class Demo2 extends Component {
 

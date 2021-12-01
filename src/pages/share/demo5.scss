@@ -1,0 +1,12 @@
+.wrap{
+    height: 100%;
+    // position: relative;
+    input{
+        display: block;
+    }
+    .btn{
+        display: block;
+        position: absolute;
+        bottom: 0;
+    }
+}

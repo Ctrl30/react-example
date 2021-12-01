@@ -1,0 +1,15 @@
+.wrap {
+    background-color: darkorange;
+  .itemA,.itemB{
+      position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+  }
+  .itemB{
+      left: 50px;
+      top: 50px;
+      background-color: darkorchid;
+  }
+}

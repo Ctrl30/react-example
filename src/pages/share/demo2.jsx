@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import style from "./demo2.scss";
 
 export default class Demo2 extends Component {
