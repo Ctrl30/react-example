@@ -5,7 +5,7 @@ import { Input } from "antd";
 export default function InputDemo() {
   const { handleSubmit, control, formState, register } = useForm({
     mode: "onChange",
-  }); // mode 触发时机
+  }); // mode 触发时机 fuck
   //   onBlur: "onBlur";
   //   onChange: "onChange";
   //   onSubmit: "onSubmit";
