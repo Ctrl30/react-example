@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { Component } from 'react';
 
-export default function Entry() {
-  return (
-    <div>
-      entry
-    </div>
-  )
+class entry extends Component {
+  render() {
+    return (
+      <div>
+          entry
+      </div>
+    );
+  }
 }
+
+export default entry;
