@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-// import { fabric } from 'fabric-with-gestures';
-import { fabric } from 'fabric';
+import { fabric } from 'fabric-with-gestures';
+// import { fabric } from 'fabric';
 
 export default class Rect extends Component {
   componentDidMount() {

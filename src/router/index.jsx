@@ -5,6 +5,7 @@ import MainLayout from "../layouts/MainLayout";
 import ShareLayout from "../layouts/ShareLayout";
 import FormLayout from "../layouts/FormLayout";
 import FabricLayout from "../layouts/FabricLayout";
+import HooksLayout from "../layouts/HooksLayout";
 
 class Router extends Component {
   componentDidMount() {
@@ -25,6 +26,7 @@ class Router extends Component {
           <Route path="/share" component={ShareLayout} />
           <Route path="/form" component={FormLayout} />
           <Route path="/fabric" component={FabricLayout} />
+          <Route path="/hooks" component={HooksLayout} />
           <Route path="/" component={MainLayout} />
         </Switch>
       </HashRouter>
